@@ -228,7 +228,7 @@ function Render() {
   b.lineTo(67.12355, 106.161);
   b.closePath();
   b.fillStyle = colourG;
-  // b.fill('nonzero');
+  b.fill('nonzero');
 
   // Rectangle of the letter I
   b.beginPath();
