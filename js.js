@@ -228,12 +228,12 @@ function Render() {
   b.lineTo(67.12355, 106.161);
   b.closePath();
   b.fillStyle = colourG;
-  b.fill('nonzero');
+  // b.fill('nonzero');
+
+  // Rectangle of the letter I
   b.beginPath();
   b.moveTo(88.49098, 159.5825);
   b.lineTo(114.87569, 159.5825);
-
-  // Rectangle of the letter I
   b.lineTo(114.87569, 206.04497);
   b.lineTo(88.49098, 206.04497);
   b.closePath();
