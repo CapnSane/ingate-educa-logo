@@ -12,6 +12,17 @@ Thus, I decided that the best way could be the `CanvasRenderingContext2S.bezierC
 
 After I decide using this feature, I started with the background and the rectangle. Afterwards I went point by point and adjusted the Bézier curve around to form the letter "G" (or C, I don't know what kind of letter it is, but I think it's a mix of G and E).
 
+The background was drawn in green with fixed width and height.
+
+<img src="images/canvas.png"/>
+
+</br>
+</br>
+
+After many attempts I finally drew the rectangle with the width and height to scale with respect to the canvas background. The rectangle colour was obtained by checking the original Ingate logo and analysed in the Paint Online with dropper tool.
+
+<img src="images/canvas&rect.png"/>
+
 ### About the logo
 
 The logo is an [Ingate Educa](https://ingate.app) trademark.
