@@ -9,6 +9,7 @@ a.width = 376;
 a.height = 378;
 
 function Render() {
+  // Background behind the logo
   b.beginPath();
   b.moveTo(0, 0);
   b.lineTo(a.width, 0);
@@ -17,6 +18,8 @@ function Render() {
   b.closePath();
   b.fillStyle = colourBg;
   b.fill('evenodd');
+
+  // Semicircle of the letter G
   b.setTransform(1.33333, 0, 0, 1.33333, 0, 0);
   b.setTransform(3.77953, 0, 0, 3.77953, 0, 0);
   b.setTransform(3.77953, 0, 0, 3.77953, -208.70341, -372.5025);
