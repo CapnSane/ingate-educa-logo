@@ -1,15 +1,21 @@
+let a = document.getElementById('ingate-logo');
+let b = a.getContext('2d');
+
+let colourG = '#000000';
+let colourI = '#fc5280';
+let colourBg = '#FFFFFF';
+
+a.width = 376;
+a.height = 378;
+
 function Render() {
-  let a = document.getElementById('ingate-logo');
-  let b = a.getContext('2d');
-  a.width = 376;
-  a.height = 378;
   b.beginPath();
   b.moveTo(0, 0);
-  b.lineTo(282, 0);
-  b.lineTo(282, 283.5);
-  b.lineTo(0, 283.5);
+  b.lineTo(376, 0);
+  b.lineTo(376, 378);
+  b.lineTo(0, 378);
   b.closePath();
-  b.fillStyle = '#FFFFFF';
+  b.fillStyle = colourBg;
   b.fill('evenodd');
   b.setTransform(1.33333, 0, 0, 1.33333, 0, 0);
   b.setTransform(3.77953, 0, 0, 3.77953, 0, 0);
@@ -218,7 +224,7 @@ function Render() {
   b.lineTo(67.12356, 106.16106);
   b.lineTo(67.12355, 106.161);
   b.closePath();
-  b.fillStyle = '#000000';
+  b.fillStyle = colourG;
   b.fill('nonzero');
   b.beginPath();
   b.moveTo(88.49098, 159.5825);
@@ -226,11 +232,12 @@ function Render() {
   b.lineTo(114.87569, 206.04497);
   b.lineTo(88.49098, 206.04497);
   b.closePath();
-  b.fillStyle = '#FF0000';
+  b.fillStyle = colourI;
   b.fill('nonzero');
   b.setTransform(3.77953, 0, 0, 3.77953, -208.70341, -372.5025);
   b.setTransform(3.77953, 0, 0, 3.77953, 0, 0);
   b.setTransform(1.33333, 0, 0, 1.33333, 0, 0);
   b.setTransform(1, 0, 0, 1, 0, 0);
 }
+
 window.addEventListener('onload', Render());
