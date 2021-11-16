@@ -3,7 +3,7 @@ let b = a.getContext('2d');
 
 let colourG = '#000000';
 let colourI = '#fc5280';
-let colourBg = '#FFFFFF';
+let colourBg = '#FFFFFF ';
 
 a.width = 376;
 a.height = 378;
@@ -11,9 +11,9 @@ a.height = 378;
 function Render() {
   b.beginPath();
   b.moveTo(0, 0);
-  b.lineTo(376, 0);
-  b.lineTo(376, 378);
-  b.lineTo(0, 378);
+  b.lineTo(a.width, 0);
+  b.lineTo(a.width, a.height);
+  b.lineTo(0, a.height);
   b.closePath();
   b.fillStyle = colourBg;
   b.fill('evenodd');
@@ -229,6 +229,8 @@ function Render() {
   b.beginPath();
   b.moveTo(88.49098, 159.5825);
   b.lineTo(114.87569, 159.5825);
+
+  // Rectangle of the letter I
   b.lineTo(114.87569, 206.04497);
   b.lineTo(88.49098, 206.04497);
   b.closePath();
