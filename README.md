@@ -16,12 +16,36 @@ The background was drawn in green with fixed width and height.
 
 <img src="images/canvas.png"/>
 
-</br>
-</br>
+<br>
+<br>
 
 After many attempts I finally drew the rectangle with the width and height to scale with respect to the canvas background. The rectangle colour was obtained by checking the original Ingate logo and analysed in the Paint Online with dropper tool.
 
 <img src="images/canvas&rect.png"/>
+
+<br>
+<br>
+
+The letter C (or G) was built almost checking the position x and y one by one. Sometimes aberrations appear, the letter became in horrible shape.
+
+<img src="images/horrible.png" />
+
+<br>
+<br>
+
+But rounding each Bézier curve using a pocket calculator finally it gets the final shape.
+
+<img src="images/canvas&rect&semic.png" />
+
+<br>
+<br>
+
+Applying the white colour to the background finally we have the _Ingate Educa_ logo.
+
+<img src="images/ingate-canvas-logo.png" />
+
+<br>
+<br>
 
 ### About the logo
 
