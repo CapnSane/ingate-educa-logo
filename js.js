@@ -1,16 +1,19 @@
 let a = document.getElementById('ingate-logo');
 let b = a.getContext('2d');
 
-let colourG = '#000000';
-let colourI = '#fc5280';
-let colourBg = '#FFFFFF ';
+let colourC = '#000000'; // Colour of the letter C
+let colourI = '#fc5280'; // Colour of the letter I - Official #fc5280
+let colourBg = '#FFFFFF00 '; // Colour of the background
 
 function changeCanvas() {
-  var canvas = document.getElementById('ingate-logo');
+  let canvas = document.getElementById('ingate-logo');
   canvas.style.width = '500px';
   canvas.style.height = '500px';
+  canvas.style.background = 'rgb(255, 255, 255)'; // Colour of the canvas
 }
+
 changeCanvas();
+
 a.width = 376;
 a.height = 378;
 
@@ -317,7 +320,7 @@ function Render() {
   b.lineTo((a.width * 67.12356) / 376, (a.height * 106.16106) / 378);
   b.lineTo((a.width * 67.12355) / 376, (a.height * 106.161) / 378);
   b.closePath();
-  b.fillStyle = colourG;
+  b.fillStyle = colourC;
   b.fill('nonzero');
 
   // Rectangle of the letter I
