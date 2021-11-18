@@ -7,8 +7,9 @@ let colourBg = '#FFFFFF00 '; // Colour of the background
 
 function changeCanvas() {
   let canvas = document.getElementById('ingate-logo');
-  canvas.style.width = '500px';
-  canvas.style.height = '500px';
+  let size = '500px';
+  canvas.style.width = size;
+  canvas.style.height = size;
   canvas.style.background = 'rgb(255, 255, 255)'; // Colour of the canvas
 }
 
