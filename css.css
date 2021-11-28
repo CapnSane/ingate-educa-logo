@@ -9,6 +9,10 @@
   margin: 0 auto;
 } */
 
+input {
+  text-align: center;
+}
+
 .center-text {
   text-align: center;
 }
@@ -29,10 +33,11 @@
   position: relative;
   border: 3px double gray;
   border-radius: 10px;
-  width: 300px;
+  width: 250px;
 }
 
 .button-apply {
+  background-color: rgb(240, 240, 255);
   /* font-weight: bold; */
   text-align: center;
   width: 200px;
@@ -42,7 +47,7 @@
 }
 
 .div-apply {
-  margin-left: 50px;
+  margin-left: 20px;
   display: flex;
   position: relative;
 }

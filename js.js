@@ -4,6 +4,7 @@ let b = a.getContext('2d');
 let colourC = document.getElementById('colourC').value;
 let colourI = document.getElementById('colourI').value;
 let colourBg = document.getElementById('colourBg').value;
+let size = document.getElementById('logoSize').value;
 // let colourC = '#000000'; // Colour of the letter C
 // let colourI = '#fc5280'; // Colour of the letter I - Official #fc5280
 // let colourBg = '#FFFFFF00 '; // Colour of the background
@@ -24,37 +25,13 @@ function updateBg() {
   document.getElementById('colourBg').value =
     document.getElementById('colourBg').value;
 }
-
-// var colourC;
-// var defaultColor = '#000000';
-
-// window.addEventListener('load', startup, false);
-
-// function startup() {
-//   colourC = document.querySelector('#colourC');
-//   colourC.value = defaultColor;
-//   colourC.addEventListener('input', updateFirst, false);
-//   colourC.addEventListener('change', updateAll, false);
-//   colourC.select();
-// }
-
-// function updateFirst(event) {
-//   var p = document.querySelector('p');
-
-//   if (p) {
-//     p.style.color = event.target.value;
-//   }
-// }
-
-// function updateAll(event) {
-//   document.querySelectorAll('p').forEach(function (p) {
-//     p.style.color = event.target.value;
-//   });
-// }
+function logoSize() {
+  document.getElementById('logoSize').value =
+    document.getElementById('logoSize').value;
+}
 
 function changeCanvas() {
   let canvas = document.getElementById('ingate-logo');
-  let size = '500px';
   canvas.style.width = size;
   canvas.style.height = size;
   canvas.style.background = 'rgb(255, 255, 255)'; // Colour of the canvas
