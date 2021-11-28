@@ -3,11 +3,10 @@
   margin: 0;
 }
 
-/* canvas {
-  background: #eee;
-  display: block;
-  margin: 0 auto;
-} */
+canvas {
+  width: 10000px;
+  height: 10000px;
+}
 
 input {
   text-align: center;

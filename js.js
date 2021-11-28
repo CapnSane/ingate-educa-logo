@@ -1,5 +1,5 @@
 let a = document.getElementById('ingate-logo');
-let b = a.getContext('2d');
+let b = a.getContext('2d', { alpha: false });
 
 let colourC = document.getElementById('colourC').value;
 let colourI = document.getElementById('colourI').value;
