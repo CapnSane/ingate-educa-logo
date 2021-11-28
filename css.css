@@ -3,11 +3,11 @@
   margin: 0;
 }
 
-canvas {
+/* canvas {
   background: #eee;
   display: block;
   margin: 0 auto;
-}
+} */
 
 .center-text {
   text-align: center;
@@ -19,4 +19,30 @@ canvas {
 
 .mb-5 {
   margin-bottom: 10px;
+}
+
+.div-config {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  position: relative;
+  border: 3px double gray;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.button-apply {
+  /* font-weight: bold; */
+  text-align: center;
+  width: 200px;
+  height: 22px;
+  border: 1px double gray;
+  border-radius: 3px;
+}
+
+.div-apply {
+  margin-left: 50px;
+  display: flex;
+  position: relative;
 }

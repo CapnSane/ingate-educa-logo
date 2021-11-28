@@ -4,20 +4,35 @@
 <head>
   <meta charset="utf-8" />
   <title>Ingate Educa Logo</title>
+  <link rel="stylesheet" href="css.css">
 </head>
 
 <body>
   <canvas id="ingate-logo"></canvas>
   <br><br>
-  <div>
+  <div class="div-config">
     <form action="/action_page.php">
-      <label for="colourC">Select the colour for letter C:</label>
-      <input type="color" id="colourC" name="colourC" value="#000000" onclick="updateC()"><br><br>
-      <label for="colourI">Select the colour for letter I:</label>
-      <input type="color" id="colourI" name="colourI" value="#fc5280" onclick="updateI()"><br><br>
-      <label for="colourBg">Select the background colour:</label>
-      <input type="color" id="colourBg" name="colourBg" value="#FFFFFF" onclick="updateBg()"><br><br>
-      <input type="button" onclick="reloadFunction()" value="Apply">
+      <div>
+        <label for="colourC">Select the colour for letter C:</label>
+        <input type="color" id="colourC" name="colourC" value="#000000" onclick="updateC()"><br><br>
+      </div>
+
+      <div>
+        <label for="colourI">Select the colour for letter I:</label>
+        <input type="color" id="colourI" name="colourI" value="#fc5280" onclick="updateI()"><br><br>
+      </div>
+
+      <div>
+        <label for="colourBg">Select the background colour:</label>
+        <input type="color" id="colourBg" name="colourBg" value="#FFFFFF" onclick="updateBg()"><br><br>
+      </div>
+
+      <div class="div-apply">
+        <button type="button" onclick="reloadFunction()">
+          <p class="button-apply">Apply!</p>
+        </button>
+      </div>
+
     </form>
   </div>
   <script src="js.js"></script>
