@@ -30,6 +30,12 @@ function logoSize() {
     document.getElementById('logoSize').value;
 }
 
+document.querySelector('#logoSize').addEventListener('keypress', function (e) {
+  if (e.key === 'Enter') {
+    location.reload();
+  }
+});
+
 function changeCanvas() {
   let canvas = document.getElementById('ingate-logo');
   canvas.style.width = size;
