@@ -32,7 +32,7 @@ input {
   position: relative;
   border: 3px double gray;
   border-radius: 10px;
-  width: 250px;
+  width: 350px;
 }
 
 .button-apply {
@@ -49,4 +49,8 @@ input {
   margin-left: 20px;
   display: flex;
   position: relative;
+}
+
+.margin-total {
+  margin: 50px;
 }
