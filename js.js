@@ -1,6 +1,8 @@
 let a = document.getElementById('ingate-logo');
 let b = a.getContext('2d', { alpha: false });
 
+let dataURL = a.toDataURL();
+
 let colourC = document.getElementById('colourC').value;
 let colourI = document.getElementById('colourI').value;
 let colourBg = document.getElementById('colourBg').value;
@@ -37,10 +39,9 @@ document.querySelector('#logoSize').addEventListener('keypress', function (e) {
 });
 
 function changeCanvas() {
-  let canvas = document.getElementById('ingate-logo');
-  canvas.style.width = size;
-  canvas.style.height = size;
-  canvas.style.background = 'rgb(255, 255, 255)'; // Colour of the canvas
+  a.style.width = size;
+  a.style.height = size;
+  a.style.background = 'rgb(255, 255, 255)'; // Colour of the canvas
 }
 
 changeCanvas();

@@ -3,11 +3,6 @@
   margin: 0;
 }
 
-canvas {
-  width: 10000px;
-  height: 10000px;
-}
-
 input {
   text-align: center;
 }
