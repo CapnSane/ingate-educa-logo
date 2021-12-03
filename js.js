@@ -1,12 +1,12 @@
-let a = document.getElementById('ingate-logo');
-let b = a.getContext('2d', { alpha: false });
+const a = document.getElementById('ingate-logo');
+const b = a.getContext('2d', { alpha: false });
 
-let dataURL = a.toDataURL();
+const dataURL = a.toDataURL();
 
-let colourC = document.getElementById('colourC').value;
-let colourI = document.getElementById('colourI').value;
-let colourBg = document.getElementById('colourBg').value;
-let size = document.getElementById('logoSize').value;
+const colourC = document.getElementById('colourC').value;
+const colourI = document.getElementById('colourI').value;
+const colourBg = document.getElementById('colourBg').value;
+const size = document.getElementById('logoSize').value;
 // let colourC = '#000000'; // Colour of the letter C
 // let colourI = '#fc5280'; // Colour of the letter I - Official #fc5280
 // let colourBg = '#FFFFFF00 '; // Colour of the background
